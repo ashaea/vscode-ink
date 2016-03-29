@@ -1,0 +1,32 @@
+{
+    "name": "ink",
+    "description": "Syntax highlighting for ink scripting language",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "0.10.x"
+    },
+    "publisher": "tommisundstrom",
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ink",
+                "aliases": [
+                    "Ink"
+                ],
+                "extensions": [
+                    ".ink"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ink",
+                "scopeName": "source.ink",
+                "path": "./syntaxes/ink.tmLanguage"
+            }
+        ]
+    }
+}
